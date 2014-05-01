@@ -1,4 +1,10 @@
-## Plotting for publication (From Scott)
+## Plotting for publication 
+
+### Using `ggplot`
+
+To add 
+
+### In R base graphics (From Scott)
 
 Labels in R can be annoying to figure out. Here are some code bits that may help? 
 
