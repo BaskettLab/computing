@@ -6,7 +6,7 @@ To add
 
 ### In R base graphics (From Scott)
 
-Labels in R can be annoying to figure out. Here are some code bits that may help? 
+Labels in R can be annoying to figure out. Here are some code bits that may help? If none of these work, you may find an answer by typing `?plotmath` at the R console prompt.
 
 Label the value of a parameter (m) used in the plot.
 
