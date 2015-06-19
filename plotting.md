@@ -39,3 +39,10 @@ With many subscripts and with greek letters
 ```R
 expression(paste("Mean phenotype ",bar(mu)[i][,][z]))
 ```
+
+
+If you need to use a raw operator, make a valid expression of it by using NAs: 
+
+```R
+expression(paste("mean",  NA %+-% NA, "SD"))
+```
