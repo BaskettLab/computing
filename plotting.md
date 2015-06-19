@@ -44,5 +44,12 @@ expression(paste("Mean phenotype ",bar(mu)[i][,][z]))
 If you need to use a raw operator, make a valid expression of it by using NAs: 
 
 ```R
-expression(paste("mean",  NA %+-% NA, "SD"))
+expression(NA %+-% NA)
 ```
+
+Note that one can create experssions that would not make sense in R:
+```R
+expression("mean" %+-% "SD")
+```
+
+
